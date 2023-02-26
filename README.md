@@ -1,2 +1,3 @@
-# python0223
-Repositorio del curso python de febrero para datux
+Nombres: Gustavo Hurtado Benancio
+Curso: Python - Datux
+Fecha Inicio: 26/02/23
