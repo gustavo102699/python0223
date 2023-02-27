@@ -36,6 +36,8 @@ if type(op) == int:
             print(" es para ")
         else:   
             print("es impar")
+    elif op==4:
+        exit
     else: 
         print("aun no tenemos esa opcion")
 else:
