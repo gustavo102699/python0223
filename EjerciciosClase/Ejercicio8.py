@@ -4,6 +4,6 @@
 password = "PythoN2023"
 passwordnew = input("Ingresar contraseña: ")
 if password.lower() == passwordnew.lower():
-    print("La contraseña COINCIDE.")
+    print("La contraseña COINCIDE")
 else:
-    print("La contraseña NO COINCIDE.")
+    print("La contraseña NO COINCIDE")
