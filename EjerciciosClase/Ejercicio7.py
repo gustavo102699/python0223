@@ -7,13 +7,11 @@
 valor1=int(input("Ingrese el valor1: "))
 valor2=int(input("Ingrese el valor2: "))
 
-igual=(valor1==valor2)
-dift=(valor1!=valor2)
-mayorval1=(valor1>valor2)
-mayorval2=(valor2>=valor1)
-
-print(f"¿Son iguales? : {igual}")
-print(f"¿Son diferentes? : {dift}")
-print(f"¿El primero es mayor que el segundo? : {mayorval1}")
-print(f"¿El segundo es mayor o igual que el primero? : {mayorval2}")
-
+if valor1==valor2 :
+    print("Los valores son iguales")
+elif valor1>valor2 and valor1!=valor2:    
+    print("-Los valores son diferentes")
+    print("-El primer valor es mayor al segundo")
+elif valor2>=valor1 and valor1!=valor2:  
+    print("-Los valores son diferentes")
+    print("-El segundo valor es mayor o igual que el primero")
