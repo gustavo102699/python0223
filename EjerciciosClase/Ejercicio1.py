@@ -4,4 +4,3 @@ name=input("Ingresa tu nombre: ")
 lastname=input("Ingresa tus Apellidos: ")
 message="Hola"
 print(message,name,lastname)
-

@@ -3,7 +3,7 @@ import math
 menu=""" CALCULANDO ÁREAS
     1) Área del círculo
     2) Área del triangulo
-    3) Área del triangulo
+    3) Área del cuadrado
     4) Salir
 """
 print(menu)
@@ -13,12 +13,12 @@ if type(op) == int:
    
     if op==1:
         radio=int(input("Ingrese rádio: "))
-        acirculo=math.pi*radio
+        acirculo=round((math.pi*(radio**2)), 2)
         print(f"El área del circulo es {acirculo}")
     elif op==2:
         base=int(input("Ingrese base: "))
         altura=int(input("Ingrese altura: "))
-        atriangulo=(base*altura)/2
+        atriangulo=round((base*altura)/2,2)
         print(f"El área del triangulo es {atriangulo}")
     elif op==3:
         lado=int(input("Ingrese lado: "))
