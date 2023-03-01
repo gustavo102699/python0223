@@ -6,16 +6,16 @@
 
 Curso = {
     
-        'Nombre de curso': "",
-        'Cantidad de Alumnos': 0,
-        'Activo': True,
-        'Nombre Profesor': "",
+        "Nombre de curso": "",
+        "Cantidad de Alumnos": 0,
+        "Activo": True,
+        "Nombre Profesor": "",
         "Max Nota": 0,
         "Alumnos" : []
         }
 
-Curso['Nombre de curso'] = input("Ingrese Nombre de curso: ")
-Curso['Cantidad de Alumnos'] = int(input("Ingrese cantidad de alumnos: "))
+Curso["Nombre de curso"] = input("Ingrese Nombre de curso: ")
+Curso["Cantidad de Alumnos"] = int(input("Ingrese cantidad de alumnos: "))
 Curso["Nombre Profesor"] = input("Profesor: ")
 Curso["Max Nota"] = int(input("Max Nota: "))
 Curso["Alumnos"] = input("Alumnos (separar con guión): ").split("-")
