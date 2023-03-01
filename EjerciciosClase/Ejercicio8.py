@@ -7,4 +7,3 @@ if password.lower() == passwordnew.lower():
     print("La contraseña COINCIDE")
 else:
     print("La contraseña NO COINCIDE")
-

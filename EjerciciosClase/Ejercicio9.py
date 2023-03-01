@@ -4,7 +4,7 @@
 #verificar que su dni se encuentre ahi, por ultimo imprimir el nombre de las personas que cumplen las condiciones anteriores
 # - Definir una lista vacia , que luego se agregue el elemento que cumplio todas las condiciones.
 
-listpersonas = [("Alberto", 15, 15660879), ("Brandon", 19, 65463871), ("Carlos", 18, 34356762), ("David", 31, 70865721)]
+listpersonas = [('Alberto', 15, 15660879), ('Brandon', 19, 65463871), ('Carlos', 18, 34356762), ('David', 31, 70865721)]
 listdni = [15660879, 65463871, 34356762,70865721]
 
 FiltroMayorEdad = []
