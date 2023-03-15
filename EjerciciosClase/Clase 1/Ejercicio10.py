@@ -8,7 +8,7 @@ Curso = {
     
         "Nombre de curso": "",
         "Cantidad de Alumnos": 0,
-        "Activo": True,
+        "Activo": False,
         "Nombre Profesor": "",
         "Max Nota": 0,
         "Alumnos" : []
